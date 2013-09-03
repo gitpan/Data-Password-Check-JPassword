@@ -1,9 +1,9 @@
 ---
 abstract: "Check a password's strength"
 author:
-  - 'Philip Gwyn <fil@localdomain>'
+  - 'Philip Gwyn < gwyn -AT- cpan.org >'
 build_requires:
-  ExtUtils::MakeMaker: 0
+  Data::Dump: 1
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
@@ -18,4 +18,4 @@ no_index:
     - t
     - inc
 requires: {}
-version: 0.01
+version: 0.02
